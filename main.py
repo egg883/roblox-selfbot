@@ -32,9 +32,9 @@ def Clear():
 typingprint(f"Waiting for input prefix is {config['prefix']}")
 
 @bot.command()
-async def user(ctx, id):
+async def user(ctx, user):
     await ctx.message.delete()
-    user1 = await client1.get_user(id)
+    user1 = await client1.get_user_by_username(user)
     msg = f"""
 ```ini
 Found info for {user1.name}

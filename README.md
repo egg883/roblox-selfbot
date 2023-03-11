@@ -1,2 +1,1 @@
-# roblox-selfbot
-This selfbot is primarily targeted towards roblox stuff.
+# THIS PROJECT IS DEPRECIATED
